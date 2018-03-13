@@ -14,7 +14,7 @@ function isDomParent(parentElement, childElement) {
         return parentDom.querySelector(childElement) !== null;
     } else {
         var nowDom = childDom;
-        while (nowDom !== parentDom) {
+        while (nowDom !== parentDom && nowDom !== null) {
             nowDom = nowDom.parentNode;
         }
         return nowDom === parentDom;
