@@ -36,6 +36,7 @@
         "jest": "^22.1.1"
     },
     "dependencies": {
-        "zhf.get-dom-array": "^1.0.2"
+        "zhf.get-dom-array": "^1.0.2",
+        "zhf.type-of": "^1.0.1"
     }
 }
