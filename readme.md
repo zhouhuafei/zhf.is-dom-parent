@@ -10,4 +10,6 @@ isDomParent('body', document.querySelector('html')); // false
 isDomParent(document.querySelector('body'), 'html'); // false
 isDomParent(document.querySelector('body'), document.querySelector('html')); // false
 isDomParent(document.querySelector('html'), document.querySelector('body')); // true
+isDomParent(document.querySelector('html'), document.querySelector('html')); // true
+isDomParent(document.querySelector('body'), document.querySelector('body')); // true
 ```
