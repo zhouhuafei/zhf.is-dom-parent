@@ -12,7 +12,7 @@ function isDomParent(parentElement, childElement) {
         return parentDom.querySelector(childElement) !== null;
     } else {
         let nowDom = childDom;
-        while (nowDom !== parentDom && nowDom !== null) {
+        while (nowDom !== parentDom && nowDom !== null) { // nowDom等于null或者等于parentDom就走不进来了。所以nowDom的最终结果要么是等于null要么是等于parentDom。
             nowDom = nowDom.parentNode;
         }
         return nowDom === parentDom;
