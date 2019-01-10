@@ -13,3 +13,7 @@ isDomParent(document.querySelector('html'), document.querySelector('body')); // 
 isDomParent(document.querySelector('html'), document.querySelector('html')); // true
 isDomParent(document.querySelector('body'), document.querySelector('body')); // true
 ```
+* 原生js有个```dom1.contains(dom2)```
+    - 如果dom1和dom2是同一个元素，返回的是true(我借鉴了这点)。
+* jQuery有个```$.contains(dom1, dom2)```
+    - 如果dom1和dom2是同一个元素，返回的是false(我应该借鉴这点，但是我没有，惭愧啊)。

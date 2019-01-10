@@ -1,6 +1,6 @@
 {
     "name": "zhf.is-dom-parent",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "是否是指定节点的父级",
     "main": "dist/index.min.js",
     "scripts": {
