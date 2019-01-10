@@ -9,4 +9,5 @@ isDomParent('body', 'html'); // false
 isDomParent('body', document.querySelector('html')); // false
 isDomParent(document.querySelector('body'), 'html'); // false
 isDomParent(document.querySelector('body'), document.querySelector('html')); // false
+isDomParent(document.querySelector('html'), document.querySelector('body')); // true
 ```
